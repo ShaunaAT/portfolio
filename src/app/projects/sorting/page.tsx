@@ -9,11 +9,29 @@ export default function sorting() {
         />
         <h1 className="text-4xl font-bold text-headline">Sorting Visualizer</h1>
       </div>
-      <p className="text-paragraph mb-6">
-        Interactive web tool for visualizing sorting algorithms. I developed this project as an educational tool for myself. 
-        Early in my coding journey, I wanted to try out web development and also understand the foundations of data structures
-        and algorithms. I've always been a visual learner, so why not make a visualization tool for myself?  
-      </p>
+      <p className="text-lg leading-relaxed mb-8">
+          When I was first learning to code, sorting algorithms didn’t really
+          click for me until I saw someone demonstrate them with a deck of
+          cards. So, when I decided to learn more advanced algorithms like heap sort, I built a visualization tool to
+          help myself understand them - and in the process, picked up some web
+          development skills too. It’s simple, but it helped me build a strong foundation in both algorithmic thinking 
+          and front-end development.
+       </p>
+       <div className="mb-8">
+          <a
+            href="https://shaunaat.github.io/sorting-visualizer/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-button text-buttonText font-bold px-6 py-3 rounded-xl hover:opacity-90 transition"
+          >
+            View Live Project
+          </a>
+        </div>
+        <img
+            src="/gifs/sorting-vis.gif"
+            alt="Sorting visualizer in action"
+            className="w-full rounded-xl border-2 border-highlight shadow-md mb-8"
+        />
 
 
       

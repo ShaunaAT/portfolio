@@ -11,10 +11,36 @@ export default function BridgeMedAI() {
         />
         <h1 className="text-4xl font-bold text-headline">BridgeMedAI</h1>
       </div>
-      <p className="text-paragraph mb-6">
-        Proposal developed for the Synapsis BioHackathon. Our team won <span className="font-semibold">1st place </span>
-        for this idea, which focused on improving patient access to medical data and matching to clinical trials, especially for rare diseases.
-      </p>
+      <p className="text-lg leading-relaxed mb-8">
+          <strong className="text-headline">Challenge:</strong> Develop AI-driven or
+            decentralized approaches to improve patient recruitment for clinical trials,
+            particularly for rare diseases and personalized medicine.
+        </p>
+
+        <p className="text-lg leading-relaxed mb-6">
+          <strong className="text-headline">Our Response:</strong> We wanted to
+          address two major issues in healthcare:
+        </p>
+
+        <ul className="list-disc list-inside mb-6 space-y-2">
+          <li>
+            A lack of interoperable systems preventing efficient access to
+            patient records, leading to longer diagnostic timelines and limited
+            patient ownership of health data.
+          </li>
+          <li>
+            Limited reach in clinical trial recruitment, which slows treatment
+            development, especially for rare diseases.
+          </li>
+        </ul>
+
+        <p className="text-lg leading-relaxed mb-8">
+          To tackle these, we proposed <strong>BridgeMedAI</strong>, a secure
+          hub that unifies fragmented patient records and uses AI-driven
+          semantic matching to connect patients with researchers and
+          specialists. Our proposal won first place for its innovative approach
+          to data interoperability and ethical AI in healthcare.
+        </p>
 
       <SlideShow
         images={[

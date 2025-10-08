@@ -15,7 +15,7 @@ export default function Hero() {
           View my work
         </a>
         <a
-          href="#contact"
+          href="/contact"
           className="px-6 py-3 rounded-full border border-paragraph text-paragraph hover:bg-highlight hover:text-headline"
         >
           Contact
