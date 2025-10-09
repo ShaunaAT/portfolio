@@ -13,7 +13,7 @@ export default function Campsite() {
       </div>
 
        <p className="text-lg leading-relaxed mb-4 text-paragraph">
-          <strong>Capstone Project</strong> — Supervised by Prof. Christian
+          <strong>Capstone Project</strong> - Supervised by Prof. Christian
           Muise (Queen’s MuLab)
         </p>
 

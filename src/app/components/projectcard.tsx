@@ -2,7 +2,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   link: string;
-  icon?: string; // rename from image -> icon
+  icon?: string; 
 }
 
 export default function ProjectCard({ title, description, link, icon }: ProjectCardProps) {
