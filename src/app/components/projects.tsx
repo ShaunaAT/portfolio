@@ -3,20 +3,20 @@ import ProjectCard from "./projectcard";
 const projects = [
   {
     title: "BridgeMedAI",
-    description: "First place project proposal for Synapsis Biohackathon, using AI to improve patient care.",
+    description: "First place hackathon project, an AI-driven system for improving clinical trial recruitment and unifying patient records.",
     link: "/projects/bridgemed",
     icon: "/bridgemed-icon.png"
   },
   {
     title: "Campsite Scan",
-    description: "Exploring lightweight computer vision models for forest fire risk detection.",
+    description: "Exploring lightweight computer vision models and datasets for forest fire risk detection at campsites.",
     link: "/projects/campsite",
     icon: "/campsite-icon__2_.png"
   },
   {
     title: "Sorting Visualizer",
     description: "Interactive visualization tool to demonstrate foundational sorting algorithms.",
-    link: "/projects/sorting", // can be a future internal page
+    link: "/projects/sorting", 
     icon: "sorting-icon.png"
   },
 ];

@@ -10,7 +10,7 @@ export default function Navbar() {
         Shauna Tuinstra
       </Link>
       <ul className="flex gap-6 text-paragraph font-bold">
-        <li><a href="#projects" className="hover:text-highlight">Projects</a></li>
+        <li><a href="/projects" className="hover:text-highlight">Projects</a></li>
         <li><a href="/contact" className="hover:text-highlight">Contact</a></li>
       </ul>
     </nav>

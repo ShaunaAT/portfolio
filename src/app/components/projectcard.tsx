@@ -9,7 +9,6 @@ export default function ProjectCard({ title, description, link, icon }: ProjectC
   return (
     <div className="relative rounded-xl border border-stroke bg-background p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition">
       
-      {/* Icon + Title Row */}
       <div className="flex items-center gap-3 mb-4">
         {icon && (
           <div className="flex items-center justify-center w-12 h-12 rounded-full bg-background/10 border border-stroke overflow-hidden">
@@ -23,10 +22,8 @@ export default function ProjectCard({ title, description, link, icon }: ProjectC
         <h3 className="text-xl font-semibold text-headline">{title}</h3>
       </div>
 
-      {/* Description */}
       <p className="text-paragraph flex-grow">{description}</p>
 
-      {/* Link */}
       <a
         href={link}
         target="_blank"

@@ -13,7 +13,7 @@ export default function SlideShow({ images }: { images: string[] })  {
         className="w-full h-full object-contain"
       />
 
-      {/* Left Button */}
+      {/* left button */}
       <button
         onClick={() => setIndex((i) => (i - 1 + images.length) % images.length)}
         className="absolute left-3 top-1/2 -translate-y-1/2 bg-button text-button-text px-3 py-1 rounded-full shadow hover:brightness-95"
@@ -21,7 +21,7 @@ export default function SlideShow({ images }: { images: string[] })  {
         ‹
       </button>
 
-      {/* Right Button */}
+      {/* right button */}
       <button
         onClick={() => setIndex((i) => (i + 1) % images.length)}
         className="absolute right-3 top-1/2 -translate-y-1/2 bg-button text-button-text px-3 py-1 rounded-full shadow hover:brightness-95"
@@ -29,7 +29,7 @@ export default function SlideShow({ images }: { images: string[] })  {
         ›
       </button>
 
-      {/* Slide Indicator */}
+      {/* slide indicator */}
       <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
         {images.map((_, i) => (
           <span
