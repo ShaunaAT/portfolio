@@ -3,7 +3,7 @@ export default function Sorting() {
     <main className="max-w-4xl mx-auto px-6 py-16">
       <div className="flex items-center gap-4 mb-6">
         <img
-          src="/sorting-icon.png"   
+          src="sorting-icon.png"   
           alt="sorting icon"
           className="w-12 h-12 rounded-full border-2 border-stroke object-contain bg-background"
         />
@@ -28,7 +28,7 @@ export default function Sorting() {
           </a>
         </div>
         <img
-            src="/gifs/sorting-vis.gif"
+            src="gifs/sorting-vis.gif"
             alt="Sorting visualizer in action"
             className="w-full rounded-xl border-2 border-highlight shadow-md mb-8"
         />
