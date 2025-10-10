@@ -13,13 +13,13 @@ export default function Hero() {
       </p>
       <div className="mt-8 flex justify-center gap-4">
         <Link
-          href={`${base}/projects`}
+          href="/projects"
           className="px-6 py-3 rounded-full bg-button text-buttontext hover:brightness-95"
         >
           View my work
         </Link>
         <Link
-          href={`${base}/contact`}
+          href="/contact"
           className="px-6 py-3 rounded-full border border-paragraph text-paragraph hover:bg-highlight hover:text-headline"
         >
           Contact
