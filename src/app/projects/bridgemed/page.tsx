@@ -5,7 +5,7 @@ export default function BridgeMedAI() {
     <main className="max-w-4xl mx-auto px-6 py-16">
       <div className="flex items-center gap-4 mb-6">
         <img
-          src="/bridgemed-icon.png"   
+          src="./bridgemed-icon.png"   
           alt="bridgemed icon"
           className="w-12 h-12 rounded-full border-2 border-stroke object-contain bg-background"
         />
@@ -44,29 +44,29 @@ export default function BridgeMedAI() {
 
       <SlideShow
         images={[
-            "/bridgemed/slides/BRIDGEMED_1.png",
-            "/bridgemed/slides/BRIDGEMED_2.png",
-            "/bridgemed/slides/BRIDGEMED_3.png",
-            "/bridgemed/slides/BRIDGEMED_4.png",
-            "/bridgemed/slides/BRIDGEMED_5.png",
-            "/bridgemed/slides/BRIDGEMED_6.png",
-            "/bridgemed/slides/BRIDGEMED_7.png",
-            "/bridgemed/slides/BRIDGEMED_8.png",
-            "/bridgemed/slides/BRIDGEMED_9.png",
-            "/bridgemed/slides/BRIDGEMED_10.png",
-            "/bridgemed/slides/BRIDGEMED_11.png",
-            "/bridgemed/slides/BRIDGEMED_12.png",
-            "/bridgemed/slides/BRIDGEMED_13.png",
-            "/bridgemed/slides/BRIDGEMED_14.png",
-            "/bridgemed/slides/BRIDGEMED_15.png",
-            "/bridgemed/slides/BRIDGEMED_16.png",
-            "/bridgemed/slides/BRIDGEMED_17.png",
-            "/bridgemed/slides/BRIDGEMED_18.png",
-            "/bridgemed/slides/BRIDGEMED_19.png",
-            "/bridgemed/slides/BRIDGEMED_20.png",
-            "/bridgemed/slides/BRIDGEMED_21.png",
-            "/bridgemed/slides/BRIDGEMED_22.png",
-            "/bridgemed/slides/BRIDGEMED_23.png"
+            "./bridgemed/slides/BRIDGEMED_1.png",
+            "./bridgemed/slides/BRIDGEMED_2.png",
+            "./bridgemed/slides/BRIDGEMED_3.png",
+            "./bridgemed/slides/BRIDGEMED_4.png",
+            "./bridgemed/slides/BRIDGEMED_5.png",
+            "./bridgemed/slides/BRIDGEMED_6.png",
+            "./bridgemed/slides/BRIDGEMED_7.png",
+            "./bridgemed/slides/BRIDGEMED_8.png",
+            "./bridgemed/slides/BRIDGEMED_9.png",
+            "./bridgemed/slides/BRIDGEMED_10.png",
+            "./bridgemed/slides/BRIDGEMED_11.png",
+            "./bridgemed/slides/BRIDGEMED_12.png",
+            "./bridgemed/slides/BRIDGEMED_13.png",
+            "./bridgemed/slides/BRIDGEMED_14.png",
+            "./bridgemed/slides/BRIDGEMED_15.png",
+            "./bridgemed/slides/BRIDGEMED_16.png",
+            "./bridgemed/slides/BRIDGEMED_17.png",
+            "./bridgemed/slides/BRIDGEMED_18.png",
+            "./bridgemed/slides/BRIDGEMED_19.png",
+            "./bridgemed/slides/BRIDGEMED_20.png",
+            "./bridgemed/slides/BRIDGEMED_21.png",
+            "./bridgemed/slides/BRIDGEMED_22.png",
+            "./bridgemed/slides/BRIDGEMED_23.png"
         ]}
       />
 
