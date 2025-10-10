@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface ProjectCardProps {
   title: string;
   description: string;
@@ -24,14 +26,14 @@ export default function ProjectCard({ title, description, link, icon }: ProjectC
 
       <p className="text-paragraph flex-grow">{description}</p>
 
-      <a
+      <Link
         href={link}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-4 inline-block px-4 py-2 rounded-full bg-button text-button-text hover:brightness-95"
       >
         View Project
-      </a>
+      </Link>
     </div>
   );
 }
