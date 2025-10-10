@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+const base = "/portfolio";
+
 export default function Hero() {
   return (
     <section className="max-w-3xl mx-auto text-center py-24 bg-background">
@@ -8,18 +12,18 @@ export default function Hero() {
         I&apos;m a CS grad interested in building thoughtful, responsible software that connects creativity, curiosity, and code.
       </p>
       <div className="mt-8 flex justify-center gap-4">
-        <a
-          href="/projects"
+        <Link
+          href={`${base}/projects`}
           className="px-6 py-3 rounded-full bg-button text-buttontext hover:brightness-95"
         >
           View my work
-        </a>
-        <a
-          href="/contact"
+        </Link>
+        <Link
+          href={`${base}/contact`}
           className="px-6 py-3 rounded-full border border-paragraph text-paragraph hover:bg-highlight hover:text-headline"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </section>
   );
