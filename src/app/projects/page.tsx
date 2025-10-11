@@ -5,21 +5,21 @@ const projects = [
     title: "BridgeMedAI",
     description:
       "Hackathon project for an AI-driven system for improving clinical trial recruitment and unifying patient records.",
-    icon: "/bridgemed-icon.png",
+    icon: "/portfolio/bridgemed-icon.png",
     link: "/projects/bridgemed",
   },
   {
     title: "Campsite Scan",
     description:
       "Exploring lightweight computer vision models and datasets for forest fire risk detection at campsites",
-    icon: "/campsite-icon__2_.png",
+    icon: "/portfolio/campsite-icon__2_.png",
     link: "/projects/campsite",
   },
   {
     title: "Sorting Visualizer",
     description:
       "Interactive visualization tool to demonstrate foundational sorting algorithms.",
-    icon: "/sorting-icon.png",
+    icon: "/portfolio/sorting-icon.png",
     link: "/projects/sorting",
   },
 ];
