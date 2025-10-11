@@ -1,11 +1,13 @@
 import SlideShow from "@/app/components/slideshow";
 
+const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function BridgeMedAI() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <div className="flex items-center gap-4 mb-6">
         <img
-          src="./bridgemed-icon.png"   
+          src={`${base}/bridgemed-icon.png`}   
           alt="bridgemed icon"
           className="w-12 h-12 rounded-full border-2 border-stroke object-contain bg-background"
         />
